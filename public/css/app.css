@@ -10908,8 +10908,30 @@ a.text-dark:focus {
   font-family: "Ubuntu", sans-serif;
 }
 
+.color-primario {
+  color: #542344;
+}
+
+.mobile-nav-toggle i {
+  color: #542344 !important;
+}
+
+.mobile-nav a {
+  color: #542344 !important;
+}
+
+.mobile-nav-active .mobile-nav {
+  height: 400px;
+}
+
 .bgc-primary {
-  background-color: #2492A8;
+  background-color: #BFD1E5;
+}
+
+nav .btn-primary {
+  width: 90%;
+  background-color: #542344;
+  margin: 75px 0px 0px 15px !important;
 }
 
 .nav-link {
@@ -10917,15 +10939,47 @@ a.text-dark:focus {
 }
 
 .bg-home {
-  background-image: url("/img/bg-home-namaste-thai.webp");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color: #BFD1E5;
 }
 
 section .paddingZero {
   padding: 0px !important;
 }
 
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #542344 !important;
+  text-decoration: none;
+}
+
+.services .icon {
+  background: #BFD1E5;
+}
+
+.icon i:hover {
+  color: #542344 !important;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #BFD1E5;
+  background: #fff1ed;
+}
+
+.faq .faq-list .icon-help {
+  color: #542344;
+}
+
 /* Media Queries Desktop*/
+
+@media only screen and (min-width: 1024px) {
+  nav.btn.btn-primary {
+    display: none;
+  }
+
+  nav .btn-primary {
+    width: 100%;
+    margin: 0px !important;
+  }
+}
 

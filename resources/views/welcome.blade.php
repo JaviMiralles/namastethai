@@ -5,9 +5,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div  class="col-lg-6 aos-init aos-animate">
-                    <h1 class="page-header-title text-white shadow">Masajes thailandes Namasté Thai</h1>
-                    <p class="page-header-text mb-5 text-white shadow">El masaje es una técnica que ayuda a la relajación muscular y mental, alivia el dolor e induce el sueño, en definitiva, mejora la salud del que lo recibe. Ofrece la oportunidad de desconectar la mente de todo lo cotidiano, de las preocupaciones que se acumulan durante la jornada.</p>
-                    <button class="btn btn-primary">Reserva tu masaje ahora</button>
+                    <h1 style="margin-top: 3rem;" class="page-header-title">Masaje thailandés</br> Namasté Thai</h1>
+                    <p class="page-header-text mb-5">El masaje es una técnica que ayuda a la relajación muscular y mental, alivia el dolor e induce el sueño, en definitiva, mejora la salud del que lo recibe. Ofrece la oportunidad de desconectar la mente de todo lo cotidiano, de las preocupaciones que se acumulan durante la jornada.</p>
                 </div>
                 <div class="col-lg-6 ">
                     <img src="{{asset('../img/namaste-thai-01.webp')}}" class="img-fluid">
@@ -28,42 +27,42 @@
           <div class="row">
             <div class="col-lg-4 col-md-6" data-aos="fade-up">
               <div class="icon-box">
-                <div class="icon"><i class="icofont-computer"></i></div>
+                <div class="icon"><i class="fas fa-spa"></i></div>
                 <h4 class="title"><a href="">Thai tradicional</a></h4>
                 <p class="description">Los principales efectos que genera El Masaje Tradicional Thailandés se producen por la aplicación de las presiones y los estiramientos que activan el flujo sanguíneo y de energía vital de una forma natural.</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="icon-box">
-                <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+                <div class="icon"><i class="fas fa-spa"></i></div>
                 <h4 class="title"><a href="">Tok Sen</a></h4>
                 <p class="description">Terapia vibracional totalmente indolora, placentera y relajante, indicada para aliviar tensiones musculares a nivel profundo, insomnio, lesiones antiguas, etc</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="icon-box">
-                <div class="icon"><i class="icofont-earth"></i></div>
+                <div class="icon"><i class="fas fa-spa"></i></div>
                 <h4 class="title"><a href="">Reflexología podal</a></h4>
                 <p class="description">La reflexología podal es un tratamiento manual terapéutico que trabaja aplicando presiones y deslizamientos en determinados puntos de los pies para provocar reacciones  de forma refleja, en partes distales del cuerpo</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="icon-box">
-                <div class="icon"><i class="icofont-image"></i></div>
+                <div class="icon"><i class="fas fa-spa"></i></div>
                 <h4 class="title"><a href="">Masaje Thai  con pindas</a></h4>
                 <p class="description">El masaje se aplica utilizando pindas que son unas bolsas de tela , rellena con hierbas y especias. Las pindas se calientan en vapor de agua. Está inspirado en los beneficios de las hierbas naturales  combinados con la estimulación de los puntos energéticos del cuerpo o acupresión.</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
               <div class="icon-box">
-                <div class="icon"><i class="icofont-settings"></i></div>
+                <div class="icon"><i class="fas fa-spa"></i></div>
                 <h4 class="title"><a href="">Thai para embarazadas</a></h4>
                 <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
               <div class="icon-box">
-                <div class="icon"><i class="icofont-tasks-alt"></i></div>
+                <div class="icon"><i class="fas fa-spa"></i></div>
                 <h4 class="title"><a href="">Sala Namasté Thai</a></h4>
                 <p class="description">Av.Sabinar, 355 Roquetas de Mar</p>
               </div>
@@ -188,13 +187,53 @@
         </div>
       </section><!-- End Portfolio Section -->
 
+      <!-- ======= Services Section ======= -->
+      <section id="coment" class=" section-bg">
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                hola
+              </div>
+              <div class="carousel-item">
+                que tal
+              </div>
+              <div class="carousel-item">
+                adios
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+
+
+      <!-- ======= End Services Section ======= -->
+
             <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq section-bg">
         <div class="container">
   
           <div class="section-title">
             <h2 data-aos="fade-up">F.A.Q</h2>
-            <p data-aos="fade-up">Cosas que debes saber de los masajes thailandesx</p>
+            <p data-aos="fade-up">Cosas que debes saber de los masajes thailandes</p>
           </div>
   
           <div class="faq-list">

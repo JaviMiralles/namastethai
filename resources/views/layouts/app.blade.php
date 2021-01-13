@@ -83,18 +83,17 @@
     </head>
     <body>
 <!--Main Navigation-->
-<section id="topbar" class="d-none d-lg-block" style="">
+{{-- <section id="topbar" class="d-none d-lg-block" style="">
     <div class="container d-flex justify-content-between">
         <div class="contact-info">
         <ul>
             <li><i class="icofont-envelope"></i><a href="mailto:namastethai.masaje@gmail.com">namastethai.masaje@gmail.com</a></li>
             <li><i class="icofont-phone"></i>686 560 296</li>
-            <li><i class="icofont-clock-time icofont-flip-horizontal"></i> lunes a viernes de 9am a 5pm</li>
         </ul>
 
         </div>
     </div>
-</section>
+</section> --}}
 <div id="header-sticky-wrapper" class="sticky-wrapper" style="height: 70px;">
     <header id="header" style="" class="">
         <div class="container d-flex justify-content-between">
@@ -111,9 +110,7 @@
               <li class=""><a href="#about">Servicios</a></li>
               <li><a href="#services">Historia</a></li>
               <li><a href="#imagenes">Imágenes</a></li>
-              <li><a href="#portfolio">Reserva ahora</a></li>
-              <li><a href="#contact">Contact</a></li>
-    
+              <li><button class="btn btn-primary m-3">Contacta ahora</button></li>
             </ul>
           </nav><!-- .nav-menu -->
     

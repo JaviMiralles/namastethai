@@ -37333,8 +37333,8 @@ try {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/franciscojavierninomiralles/wa/proyect-laravel/namastethai/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/franciscojavierninomiralles/wa/proyect-laravel/namastethai/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/azza/wa/laravel/namastethai/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/azza/wa/laravel/namastethai/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -1,7 +1,7 @@
 // Colores
 
-$primary-color: #5CAD51;
-$secondary-color: #2492A8;
+$primary-color: #542344;
+$secondary-color: #BFD1E5;
 $azul-claro: #00509D;
 $azul-oscuro: #003F88;
 $amarillo-claro: #ffd500;
@@ -13,24 +13,53 @@ $line-height-base: 1.6;
 *{
     font-family: $font-primary;
 }
+.color-primario {
+    color: $primary-color;
+}
+.mobile-nav-toggle i {
+    color: $primary-color!important;
+}
+.mobile-nav a{
+    color: $primary-color!important;
+}
+.mobile-nav-active .mobile-nav{
+    height: 400px;
+}
 
 .bgc-primary {
     background-color: $secondary-color;
+}
+nav .btn-primary{
+    width: 90%;
+    background-color: $primary-color;
+    margin: 75px 0px 0px 15px!important;
 }
 .nav-link{
     color: #fff;
 }
 .bg-home{
-    background-image: url("/img/bg-home-namaste-thai.webp");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: $secondary-color;
 }
 section .paddingZero{
     padding: 0px!important;
 }
-
-
+.nav-menu .active > a, .nav-menu li:hover > a {
+    color: $primary-color!important;
+    text-decoration: none;
+}
+.services .icon {
+    background: $secondary-color;
+}
+.icon i:hover {
+    color: $primary-color!important;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    color: $secondary-color;
+    background: #fff1ed;
+}
+.faq .faq-list .icon-help {
+    color: $primary-color;
+}
 //END Pushbar
 //Formato Desktop
 /* Media Queries Desktop*/
@@ -38,6 +67,14 @@ section .paddingZero{
 @media only screen and (min-width: 1024px){
 
     //Header
+    nav.btn.btn-primary{
+        display: none;
+        
+    }
+    nav .btn-primary {
+        width: 100%;
+        margin: 0px!important;
+    }
 
    
 
