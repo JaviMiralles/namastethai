@@ -1,0 +1,45 @@
+// Colores
+
+$primary-color: #5CAD51;
+$secondary-color: #2492A8;
+$azul-claro: #00509D;
+$azul-oscuro: #003F88;
+$amarillo-claro: #ffd500;
+
+// Typography
+$font-primary: 'Ubuntu', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+*{
+    font-family: $font-primary;
+}
+
+.bgc-primary {
+    background-color: $secondary-color;
+}
+.nav-link{
+    color: #fff;
+}
+.bg-home{
+    background-image: url("/img/bg-home-namaste-thai.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+section .paddingZero{
+    padding: 0px!important;
+}
+
+
+//END Pushbar
+//Formato Desktop
+/* Media Queries Desktop*/
+
+@media only screen and (min-width: 1024px){
+
+    //Header
+
+   
+
+
+}
