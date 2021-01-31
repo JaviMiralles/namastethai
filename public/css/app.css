@@ -1,6 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css);@import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;
 
-0,400;0,700;1,400&display=swap);@charset "UTF-8";
+0,400;0,700;1,400&display=swap);@import url(https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -10908,6 +10908,10 @@ a.text-dark:focus {
   font-family: "Ubuntu", sans-serif;
 }
 
+.logo {
+  display: flex;
+}
+
 .color-primario {
   color: #542344;
 }
@@ -10924,6 +10928,12 @@ a.text-dark:focus {
   height: 400px;
 }
 
+.fuente-secundaria {
+  font-family: "Bodoni Moda", serif;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
 .bgc-primary {
   background-color: #BFD1E5;
 }
@@ -10936,6 +10946,11 @@ nav .btn-primary {
 
 .nav-link {
   color: #fff;
+}
+
+nav ul li .call-to-action {
+  padding: 5px 1rem;
+  color: #fff !important;
 }
 
 .bg-home {
@@ -10968,6 +10983,28 @@ section .paddingZero {
 
 .faq .faq-list .icon-help {
   color: #542344;
+}
+
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.carousel-item {
+  background-color: #BFD1E5;
+  padding: 1rem;
+}
+
+.author-comment {
+  font-size: 2rem;
+  color: #542344;
+  padding: 2rem;
+}
+
+.post-comment {
+  padding: 1rem 3rem 1rem 1rem;
 }
 
 /* Media Queries Desktop*/
