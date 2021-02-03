@@ -10934,6 +10934,10 @@ a.text-dark:focus {
   padding: 10px 20px;
 }
 
+.bgc-secundary {
+  background-color: #542344;
+}
+
 .bgc-primary {
   background-color: #BFD1E5;
 }
