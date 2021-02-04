@@ -25,8 +25,7 @@
 
         {{-- Styles --}}
         <link  rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
-        {{-- Scripts --}}
-        <script async src="{{asset('js/app.js')}}"></script>
+        
 
 
         <script type="application/ld+json">
@@ -162,6 +161,8 @@
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+  {{-- Scripts --}}
+  <script async src="{{asset('js/app.js')}}"></script>
             
 
         </footer>

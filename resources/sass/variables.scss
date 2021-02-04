@@ -1,16 +1,23 @@
 // Colores
 
+// Typography
 $primary-color: #542344;
 $secondary-color: #BFD1E5;
 $azul-claro: #00509D;
 $azul-oscuro: #003F88;
 $amarillo-claro: #ffd500;
 
-// Typography
+
 $font-primary: 'Ubuntu', sans-serif;
 $font-secundary:'Bodoni Moda', serif;
+$font-title: 'lucida', serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+.font-title{
+    font-family: $font-title;
+}
+
 *{
     font-family: $font-primary;
 }
