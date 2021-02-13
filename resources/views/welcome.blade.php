@@ -74,117 +74,39 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="imagenes" class="portfolio">
-        <div class="container">
-  
-          <div class="section-title">
-            <h2 data-aos="fade-up">Imágenes</h2>
-          </div>
-  
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">Masajes</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="img/masajes/masaje1.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Masajes</h4>
-                <p>App</p>
-                <a href="img/masajes/masaje1.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Masajes"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="img/masajes/masaje2.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a href="img/masajes/masaje2.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="img/masajes/masaje3.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <a href="img/masajes/masaje3.webp" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="img/masajes/masaje4.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <a href="img/masajes/masaje4.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="img/masajes/masaje5.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <a href="img/masajes/masaje5.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="img/masajes/masaje6.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <a href="img/masajes/masaje6.webp" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="img/masajes/masaje7.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <a href="img/masajes/masaje7.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="img/masajes/masaje8.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <a href="img/masajes/masaje8.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="img/masajes/masaje9.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a href="img/masajes/masaje9.webp" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-  
-          </div>
-  
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Imágenes</h2>
         </div>
-      </section><!-- End Portfolio Section -->
+          <div class="row d-flex">
+            <a class="col-lg-4 my-2" href="img/masajes/masaje1.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje1.webp" class="img-fluid rounded">
+            </a>
+            <a class="col-lg-4 my-2" href="img/masajes/masaje2.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje2.webp" class="img-fluid rounded">
+            </a>
+            <a class="col-lg-4 my-2" href="img/masajes/masaje3.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje3.webp" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="row">
+            <a class="col-lg-4 my-2" href="img/masajes/masaje4.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje4.webp" class="img-fluid rounded">
+            </a>
+            <a class="col-lg-4 my-2" href="img/masajes/masaje5.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje5.webp" class="img-fluid rounded">
+            </a>
+            <a class="col-lg-4 my-2" href="img/masajes/masaje6.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje6.webp" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="row">
+            <a class="col-lg-4 my-2" href="img/masajes/masaje7.webp" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="img/masajes/masaje7.webp" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </section>
 
       <!-- ======= Services Section ======= -->
       <section id="comment" class=" section-bg">
@@ -277,7 +199,7 @@
             <ul>
               <li data-aos="fade-up">
                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">¿En qué se diferencia el masaje tailandés de otro tipo de masajes?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                   <p>Si comparamos el masaje tailandés con masajes occidentales “clásicos” (como el masaje sueco, el masaje californiano, el quiromasaje… o casi todo lo que conocemos simplemente como “masaje”), hay una serie de diferencias evidentes: el masaje tailandés se realiza en un futón en vez de una camilla, con el receptor totalmente vestido, sin utilizar aceites, y las técnicas principales son estiramientos y presiones.</p>
                   <p>A un nivel un poco menos evidente: la mayoría de masajes que utilizan aceite trabajan los tejidos más superficiales, justo por debajo de la piel. Incluso cuando son “fuertes”, trabajan la musculatura a un nivel bastante superficial.</p>
                   <p>Técnicas de presión y estiramientos típicas del masaje tailandés permiten liberar la tensión de la musculatura más profunda, esa que está debajo de capas y capas de tejido, además de trabajar otros tejidos como las fascias, o incluso las redes del sistema nervioso periférico. Es por esto que a menudo los efectos de un masaje tailandés suelen durar más que los de otro tipo de masajes.</p>
