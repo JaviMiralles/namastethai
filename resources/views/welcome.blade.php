@@ -484,7 +484,7 @@
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Masaje Craneal Relajante</h2>
                                 <img class="img-fluid rounded mb-5" src="/img/masajes/masaje8.webp" alt="Masaje Craneal Relajante" />
-                                <p class="mb-3 text-start">El El Masaje Mágico de cabeza genera un profundo estado de relajación y una gran sensación de paz. Este masaje es muy eficaz para liberar las tensiones y el estrés, aliviar la cefalea tensional y favorecer el sueño. Se trabaja la parte superior del pecho, hombros, cuello, rostro y cráneo.</p>
+                                <p class="mb-3 text-start">El Masaje Mágico de cabeza genera un profundo estado de relajación y una gran sensación de paz. Este masaje es muy eficaz para liberar las tensiones y el estrés, aliviar la cefalea tensional y favorecer el sueño. Se trabaja la parte superior del pecho, hombros, cuello, rostro y cráneo.</p>
                                 <button class="btn bgc-secundary text-white" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw text-white"></i>
                                     Cerrar ventana
