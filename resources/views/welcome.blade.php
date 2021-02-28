@@ -18,12 +18,12 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
         <div class="container">
-  
+
           <div class="section-title" data-aos="fade-up">
             <h2>Nuestros servicios</h2>
             <p>Los efectos de esta técnica se producen por la aplicación de las presiones y los estiramientos que activan el flujo sanguíneo y de energía vital de una forma natural. Las presiones estáticas y rítmicas comprimen el tejido blando, mientras que los estiramientos producen una flexibilidad máxima del mismo y estimulan la vasta red de terminaciones nerviosas que se encuentran en la zona que se trabaja.</p>
           </div>
-  
+
           <div class="row">
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-toggle="modal" data-target="#portfolioModal1">
               <div class="icon-box">
@@ -60,6 +60,13 @@
                 <p class="description">Tratamientos personalizados para embarazadas y post-parto. Aliviar tensiones en las zonas que más trabajan en el cuerpo de una embarazada.</p>
               </div>
             </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400" data-toggle="modal" data-target="#portfolioModal7">
+                <div class="icon-box">
+                  <div class="icon"><i class="fas fa-spa"></i></div>
+                  <h4 class="title">Masaje Craneal Relajante</h4>
+                  <p class="description">El Masaje Mágico de cabeza genera un profundo estado de relajación y una gran sensación de paz. Este masaje es muy eficaz para liberar las tensiones y el estrés, aliviar la cefalea tensional y favorecer el sueño. Se trabaja la parte superior del pecho, hombros, cuello, rostro y cráneo.</p>
+                </div>
+              </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500" data-toggle="modal" data-target="#portfolioModal6">
               <div class="icon-box">
                 <div class="icon"><i class="fas fa-spa"></i></div>
@@ -68,7 +75,7 @@
               </div>
             </div>
           </div>
-  
+
         </div>
       </section><!-- End Services Section -->
 
@@ -189,12 +196,12 @@
             <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq section-bg">
         <div class="container">
-  
+
           <div class="section-title">
             <h2 data-aos="fade-up">Preguntas frecuentes</h2>
             <p data-aos="fade-up">Cosas que debes saber de los masajes thailandeses</p>
           </div>
-  
+
           <div class="faq-list">
             <ul>
               <li data-aos="fade-up">
@@ -205,7 +212,7 @@
                   <p>Técnicas de presión y estiramientos típicas del masaje tailandés permiten liberar la tensión de la musculatura más profunda, esa que está debajo de capas y capas de tejido, además de trabajar otros tejidos como las fascias, o incluso las redes del sistema nervioso periférico. Es por esto que a menudo los efectos de un masaje tailandés suelen durar más que los de otro tipo de masajes.</p>
                 </div>
               </li>
-  
+
               <li data-aos="fade-up" data-aos-delay="100">
                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">¿Dónde y cómo se realiza el masaje tailandés?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                 <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
@@ -213,7 +220,7 @@
                    <p>Muchos de los movimientos y técnicas utilizados necesitan espacio y que el masajista pueda moverse libremente y con seguridad alrededor del receptor (y esto sólo puede hacerse en el suelo).</p>
                 </div>
               </li>
-  
+
               <li data-aos="fade-up" data-aos-delay="200">
                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">¿Y si mi estado de salud no me permite tumbarme en el suelo?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                 <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
@@ -221,7 +228,7 @@
                   <p>Tal vez no puedas estar tumbado/a en alguna postura concreta, pero sí en otras (por ejemplo, durante el embarazo, o en caso de alguna lesión). Hay muchas técnicas de masaje tailandés que se hacen con el receptor sentado (eso sí, en el suelo).</p>
                 </div>
               </li>
-  
+
               <li data-aos="fade-up" data-aos-delay="300">
                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">¿Por qué con ropa? ¿Qué tipo de ropa necesito?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                 <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
@@ -229,7 +236,7 @@
                   <p>Por otra parte, la ropa ofrece intimidad al receptor en muchos de los estiramientos y posturas del masaje, que podrían ser incómodos tanto para receptor como para terapeuta de otra manera. La ropa para recibir el masaje se proporciona en el local.</p>
                 </div>
               </li>
-  
+
               <li data-aos="fade-up" data-aos-delay="400">
                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">¿Con qué frecuencia debo/puedo darme un masaje tailandés?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                 <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
@@ -294,10 +301,10 @@
                   <p>Siéntete libre de pedir la presión que es correcta para ti, ese día en concreto, en esa zona del cuerpo.</p>
                 </div>
               </li>
-  
+
             </ul>
           </div>
-  
+
         </div>
       </section><!-- End F.A.Q Section -->
 </main>
@@ -426,7 +433,7 @@
                                   <!-- Portfolio Modal - Title-->
                                   <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Tratamientos personalizados para embarazadas y post-parto</h2>
                                   <!-- Icon Divider-->
-                                  
+
                                   <!-- Portfolio Modal - Image-->
                                   <img class="img-fluid rounded mb-5" src="img/masajes/masaje-embarazadas.webp" alt="masajes embarazadas" />
                                   <!-- Portfolio Modal - Text-->
@@ -466,4 +473,27 @@
               </div>
           </div>
       </div>
+      {{-- Portfolio modal 7 --}}
+      <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Masaje Craneal Relajante</h2>
+                                <img class="img-fluid rounded mb-5" src="/img/masajes/masaje8.webp" alt="Masaje Craneal Relajante" />
+                                <p class="mb-3 text-start">El El Masaje Mágico de cabeza genera un profundo estado de relajación y una gran sensación de paz. Este masaje es muy eficaz para liberar las tensiones y el estrés, aliviar la cefalea tensional y favorecer el sueño. Se trabaja la parte superior del pecho, hombros, cuello, rostro y cráneo.</p>
+                                <button class="btn bgc-secundary text-white" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw text-white"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
