@@ -15,18 +15,18 @@
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <!-- Vendor CSS Files -->
-        <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-        <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link rel="preload" href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+        <link rel="preload" href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="preload" href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link rel="preload" href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+        <link rel="preload" href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
         <!-- Template Main CSS File -->
         <link href="/css/style.css" rel="stylesheet">
 
         {{-- Styles --}}
         <link  rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
-        
+
 
 
         <script type="application/ld+json">
@@ -85,12 +85,12 @@
             <div id="header-sticky-wrapper" class="sticky-wrapper" style="height: 70px;">
                 <header id="header" style="" class="">
                     <div class="container d-flex justify-content-between">
-                
+
                     <div class="logo">
                         <img style="margin-right: 15px;" src="{{ asset('../img/icons/favicon.ico')}}" alt="masaje tailandes roquetas de mar">
                         <h1 class="text-light"><a href="{{route('index')}}"><span>Namasté Thai</span></a></h1>
                     </div>
-                
+
                     <nav class="nav-menu d-none d-lg-block">
                         <ul>
                         <li><a href="#services">Nuestros servicios</a></li>
@@ -100,7 +100,7 @@
                         <li><button class="btn btn-primary m-3"><a class="call-to-action" href="#contact">Contacto</a></button></li>
                         </ul>
                     </nav><!-- .nav-menu -->
-                
+
                     </div>
                 </header>
             </div>
@@ -114,7 +114,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Donde estamos</h4>
                         <p class="lead mb-0">
-                            Av.Sabinar, 355 
+                            Av.Sabinar, 355
                             <br />
                             Roquetas de Mar, Almería
                         </p>
@@ -151,7 +151,7 @@
   {{-- Scripts --}}
   <script async src="{{asset('js/app.js')}}"></script>
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
-            
+
 
         </footer>
     </body>
